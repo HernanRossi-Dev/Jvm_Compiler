@@ -1,0 +1,18 @@
+void main(){
+	
+}
+
+int factorial(int a, char c, float f){
+	
+	boolean b;
+	string s;
+	int h;
+	char i;
+
+	println true;
+	println 10;
+	println 10.39;
+	println 'a';
+	println "This is a string";
+	return a;
+}

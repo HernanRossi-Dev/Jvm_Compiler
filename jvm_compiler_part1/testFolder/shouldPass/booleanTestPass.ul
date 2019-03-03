@@ -1,0 +1,23 @@
+boolean booleanTestPass(boolean n, boolean k)
+{
+    boolean[3] testArray;
+    boolean result;
+    boolean temp;
+
+    testArray[0] = false;
+    testArray[1] = true;
+    testArray[2] = n;
+    result = k;
+    temp = n;
+
+    while (true)
+    {
+        if (false)
+        {
+            return result;
+        } else
+        {
+            return temp;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+void main ( ) {
+	
+}
+
+void functionOne(int x, char a) {
+	char c;
+	char[5] cTwo;
+	int iOne;
+	int[4] iTwo;
+	string sOne;
+	string[4] sTwo;
+	float fOne;
+	float[2] fTwo;
+	boolean bOne;
+	boolean[10] bTwo;
+
+
+	print x;
+	print a;
+	print 1;
+	print iOne;
+	print iTwo[1];
+	print 'c';
+	print cTwo[2];
+	print "This is a string";
+	print sOne;
+	print sTwo[3];
+	print fTwo[4];
+	print bOne;
+	print false;
+	print bTwo[5];
+}

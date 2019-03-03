@@ -1,0 +1,14 @@
+void main ( ) {
+	
+}
+
+int functionOne(int x, char a) {
+	char c;
+	boolean bOne;
+
+	bOne = true;
+
+    while(254) {
+		x = 0;
+	}
+}

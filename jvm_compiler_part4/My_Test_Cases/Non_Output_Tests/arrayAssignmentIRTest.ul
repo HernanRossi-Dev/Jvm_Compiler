@@ -1,0 +1,17 @@
+void main(){
+	
+}
+
+int[2] factorial(int[2] a, char c, float f){
+	
+	boolean[5] b;
+	string[3] s;
+	int[6] h;
+	char[10] i;
+
+	i[5] = 'a';
+	
+
+	
+	return a;
+}

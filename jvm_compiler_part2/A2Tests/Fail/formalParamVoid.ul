@@ -1,0 +1,6 @@
+void main ( ) {
+}
+
+int functionOne(void x, char x) {
+	
+}

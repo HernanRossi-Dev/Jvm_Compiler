@@ -1,0 +1,52 @@
+// this is the starting comment 1! this should be ok.
+void exprTestPass(string _in1, string in_2)
+{
+    boolean result;
+    int temp;
+    
+    // this is comment, number 2
+    ;
+    functionCall();
+    "this is an expression but doesnt do anything";
+    0.3;
+    while (true)
+    {
+        functionCall();
+        "this is an expression but doesnt do anything";
+        0.3;
+        result = false;
+    }
+
+    // this should work also ___!
+    if ("the last thing didnt work"==" do other stuff")
+    {
+        temp = 3;
+        temp = 4;
+    }
+
+    if (3+4*3<4*(7-1))
+    {
+        functionCall();
+        "this is an expression but doesnt do anything";
+        0.3;
+        while(a){
+            functionCall();
+            "this is an expression but doesnt do anything";
+            0.3;
+        }
+    } else
+    {
+        functionCall();
+        "this is an expression but doesnt do anything";
+        0.3;
+    }
+
+    if(true==false)
+    {
+        while (false)
+        {
+            // this will never run
+        }
+        return 4*5-3+temp;
+    }
+}

@@ -1,0 +1,19 @@
+void main() 
+{
+	int[5] x;
+	int result;
+
+	x[0] = 1;
+
+	result = foo(x[0]);
+	println result;
+}
+
+int foo(int n)
+{
+	if(n == 1){
+		return 5;
+	}else{
+		return 0;
+	}
+}

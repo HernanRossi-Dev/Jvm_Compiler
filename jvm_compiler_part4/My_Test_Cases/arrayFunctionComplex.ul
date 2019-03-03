@@ -1,0 +1,46 @@
+void main() 
+{
+	int[10] input;
+	char[10] output;
+	int i;
+	int k;
+
+	i=0;
+	while(i < (5* 2))
+	{
+		
+		if(i == 5){
+			println "At array index 6";
+		}
+		input[i] = i;
+		println input[i];
+		i = i + 1;
+		
+	}
+	println "";
+	output = foo(input);
+	i =0;
+
+	while(i < (5* 2))
+	{
+		print output[i];
+		i = i +1;
+	}
+	println "";
+}
+
+char[10] foo(int[10] in)
+{
+	char[10] result;
+	int i;
+	int k;
+
+	i=0;
+	while(i < 10)
+	{
+		result[i] = 'a';
+		i = i +1;
+	}
+
+	return result;
+}

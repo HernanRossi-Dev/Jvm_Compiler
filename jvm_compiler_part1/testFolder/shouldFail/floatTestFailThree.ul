@@ -1,0 +1,11 @@
+float floatTestFailThree (float x, float y)
+{
+    float testTwo;
+
+    testTwo = .2323;
+    testTwo = 2323.;
+    testTwo = 2323.
+    t = .2 + 2.;
+
+
+}

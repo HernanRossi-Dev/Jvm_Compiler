@@ -1,0 +1,75 @@
+void main() 
+{
+	int i;
+	int i2;
+	char c;
+	char c2;
+	float f;
+	float f2;
+	boolean bfalse;
+	boolean btrue;
+	string s;
+	string s2;
+
+	i = 2;
+	i2 = 3 * 4 + 2 - 10 * ( 3 -1 );
+	print i;
+	print i2;
+	println i;
+	println i2;
+
+	c = 'b';
+	c2 = 'B';
+	print c;
+	print c2;
+	println c;
+	println c2;
+
+	f = 2.4 * 3.5 - 3.0 + (4.2 * 2.1);
+	f2 = f * ( 2.0 - 1.0);
+	print f;
+	print f2;
+	println f;
+	println f2;
+
+	bfalse = false;
+	btrue = true;
+	if(btrue)
+	{
+		if(bfalse){
+
+		}else{
+		print "This is false";
+			print bfalse;
+			print "This is true";
+			print btrue;
+			print "This is false";
+			println bfalse;
+			print "This is true";
+			println btrue;
+		}
+		if(btrue){
+
+		}else{
+			println "We should not be here but we are";
+
+		}
+		if(bfalse){
+
+		}else{
+			println "We should be here";
+			
+		}
+	} else{
+		print "This should not be printed";
+	}
+
+	s = "This is a string";
+	s2 = s;
+	print s;
+	print s2;
+	println s;
+	println s2;
+	return;
+}
+

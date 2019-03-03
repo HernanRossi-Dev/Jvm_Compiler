@@ -1,0 +1,36 @@
+void main() 
+{
+	int[2] input;
+	int[2] output;
+	int i;
+	int k;
+	i=0;
+	k=2;
+	input[0] = 2;
+	input[1] = 1;
+
+	while(i < k)
+	{
+		print input[i];
+		i = i +1;
+	}
+	println "";
+	output = addOne(input);
+	i =0;
+
+	while(i < k)
+	{
+		print output[i];
+		i = i +1;
+	}
+	println "";
+}
+
+int[2] addOne(int[2] in)
+{
+	int[2] out;
+	
+	out[0] = 5;
+	out[1] = 10;
+	return out;
+}

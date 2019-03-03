@@ -1,0 +1,35 @@
+void main ( ) 
+{
+	int x;
+	char y;
+
+	x = foo(biz(), bar());
+
+	return;	
+}
+
+int foo(int x, char a) 
+{
+	if(a == 'a') 
+	{
+		x = x + 1;
+	}
+
+	return x;
+}
+
+char bar() 
+{
+	
+	return 'a';	
+}
+
+void baz()
+{
+	return;
+}
+
+int biz() 
+{
+	return 1;
+}

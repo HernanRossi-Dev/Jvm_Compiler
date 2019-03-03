@@ -1,0 +1,10 @@
+void main ( ) {
+	
+}
+
+int functionOne(char a) {
+	char c;
+
+    a = p;
+	return x;
+}

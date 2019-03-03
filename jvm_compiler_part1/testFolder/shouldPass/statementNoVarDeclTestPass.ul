@@ -1,0 +1,24 @@
+void intReturn(int n, int i, int j)
+{
+	
+	if(true)
+	{
+		if(false){
+
+		}
+	}
+
+	n=0;
+	i=0;
+	j=0;
+	while(n<10){
+		while(i<10){
+			while(j<10){
+				println "This will print 1000 times.";
+				j=j+1;	
+			}
+			i=1+1;
+		}
+		n=n+1;
+	}
+}

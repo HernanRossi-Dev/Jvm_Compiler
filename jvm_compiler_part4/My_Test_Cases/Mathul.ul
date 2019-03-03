@@ -1,0 +1,42 @@
+void main() 
+{
+	int x; 
+	int y;
+	int z;
+	int divideResult;
+	int powResult;
+
+	
+
+	powResult = power(18, 5);
+	print "18 to the power of 5 is ";
+	println powResult;
+	divideResult = divide( 276 , 23);
+	print "276 divided by 23 is ";
+	println divideResult;
+
+}
+
+int divide(int x, int y)
+{
+	int count;
+	int remainder;
+	while( 0 < x)
+	{
+		x = x - y;
+		count = count + 1;
+	}
+	return count;
+}
+
+int power(int x, int y)
+{	
+	int result;
+	result = x;
+	while(1 < y)
+	{
+		result =  result * x;
+		y = y -1;
+	}
+	return result;
+}

@@ -1,0 +1,7 @@
+int arrayTestFailTwo()
+{
+    char[5] charArray;
+    // Need to specify an array location
+    charArray[] = 'a'; 
+    return;
+}

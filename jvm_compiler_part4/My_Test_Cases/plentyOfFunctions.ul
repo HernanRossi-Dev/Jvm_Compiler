@@ -1,0 +1,81 @@
+void main() 
+{
+	boolean[2] fooResult;
+	int x;
+	int[5] y;
+	float[2] f;
+	char c;
+	string[2] str;
+
+	fooResult = foo(200.1, 200);
+	println fooResult[0];
+	println fooResult[1];
+	println biz('a','b','c','d','e','f','g','h','i');
+	fact(10);
+}
+
+boolean[2] foo(float f, int n)
+{
+	boolean[2] result;
+	int i;
+	int j;
+	int mod;
+	println f;
+	if(f < 200.0)
+	{
+		println "This should not be seen";	
+	}else{
+		result[0] = true;
+		i = 1;
+		j = 2;
+		mod = i;
+		while(i < bar()){
+			mod = i;
+			while(2 < mod){
+				mod = mod - 2;
+			}
+			if(mod == 2){
+				println i;
+			}
+			else{
+				println "Not even";
+			}
+			i = i + 1;
+		}
+	}
+	result[1] = false;
+	return result;
+}
+
+int bar()
+{
+	return 25;
+}
+
+char biz(char a, char b, char c, char d, char e, char f, char g, char h, char i)
+{
+	print a;
+	print b;
+	print c;
+	print d;
+	print e;
+	print f;
+	print g;
+	print h;
+	println i;
+
+	return 'F';
+}
+
+int fact(int n)
+{
+	if(n ==1){
+		return 1;
+	}
+	else
+	{
+		n = n * fact(n-1);
+		println n;
+		return n;
+	}
+}

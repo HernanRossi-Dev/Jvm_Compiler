@@ -1,0 +1,11 @@
+void main ( ) {
+	
+}
+
+int functionOne(int x, char a) {
+
+    y = 3;
+    z = x * y +3;
+
+	return z;
+}

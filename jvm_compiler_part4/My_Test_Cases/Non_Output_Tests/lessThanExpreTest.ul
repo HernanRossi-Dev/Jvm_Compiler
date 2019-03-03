@@ -1,0 +1,26 @@
+void main(){
+	
+}
+
+boolean factorial(int x){
+	
+	boolean b;
+	int y;
+	float f;
+	boolean[4] ba;
+	int[5] ia;
+	float[5] fa;
+
+	y =5;
+	f = 5.5;
+	ba[3] = true;
+	ia[1] = 3;
+	fa[1] = 5.4;
+
+	ba[1] = f < fa[1];
+	b = 5.5 < f;
+	b = ia[1] < x;
+	b = x < 10;
+
+	return b;
+}

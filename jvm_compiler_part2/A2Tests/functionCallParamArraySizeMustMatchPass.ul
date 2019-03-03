@@ -1,0 +1,9 @@
+void main ( ) {
+	char[10] charArray;
+	functionOne(charArray, 2, 2.5);
+}
+
+char[10] functionOne(char[10] cArray, int x, float s) {
+
+	return cArray;
+}

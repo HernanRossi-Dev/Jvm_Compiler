@@ -1,0 +1,21 @@
+void main(){
+	
+}
+
+int factorial(int a, char c, float f){
+	
+	boolean b;
+	string s;
+	int h;
+	char i;
+
+
+	h = 10;
+    f = 2.5;
+	
+	i = 'b';
+	b = false;
+	s = "This is a new string";
+
+	return a;
+}

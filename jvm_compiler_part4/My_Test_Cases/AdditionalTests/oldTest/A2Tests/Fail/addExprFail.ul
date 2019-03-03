@@ -1,0 +1,17 @@
+void main ( ) {
+	
+}
+
+int functionOne(int x, char a) {
+	int y;
+
+	y = 0;
+	while( y < x) {
+
+		print "y is ";
+		println y;
+        y=y+false;
+	}
+	println "exiting while loop y equals x";
+	return y;
+}

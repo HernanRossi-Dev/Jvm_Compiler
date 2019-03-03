@@ -1,0 +1,16 @@
+void main ( ) {
+}
+
+int functionOne(int[5] x) {
+	int[5] y;
+
+	if(x == y){
+		y = x + x;
+	} else {
+    	y = x * x;
+    }
+    while(x<y){
+
+    }
+	return x[3];
+}

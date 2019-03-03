@@ -1,0 +1,97 @@
+int[3] arrayTestPass(boolean n, int k, char[10] testArray)
+{
+   int intTest;
+   char charTest;
+   boolean booleanTest;
+   string stringTest;
+   int[5] intArrayTest;
+   char[10] charArrayTest;
+   boolean[3] booleanArrayTest;
+   string[1000000000] stringArrayTest;
+
+   if(x){
+      test;
+      x=y;
+      t=3;
+      while(true) {
+         //this is a comment
+         stringTest = "this is a block in a block";
+         if(a) {
+            if(b){
+               if(c){
+                  test = "this a deep nested if block.";
+               }
+            }
+         }
+      }
+   }
+
+   if(y){
+      a = true;
+   }else{
+      stringTest = "This is a block in an else block";
+      if(false){
+         while(true) {
+            test = "deep nested else block";
+         }
+      }
+   }
+
+   while(x) {
+      if(true){
+         test = 1.335;
+         if(false){
+            a=7;
+            while(a){
+               test ="This a deep nested block";
+            }
+         }
+      }
+      test="this is a while block";
+   }
+
+   println a;
+
+   print a;
+
+   return;
+   return a;
+
+   testA = testB;
+   testC[a] = testB;
+
+   test = test[2];
+
+   intLitTest = 12345;
+   stringTest = "This is a new string.";
+   charTestOne = 'a';
+   charTestTwo = 'Z';
+   floatTest = 1.2343;
+   booleanTestOne = true;
+   booleanTestTwo = false;
+
+   parensTest= (1.2344);
+   parensTestTwo = (((a)));
+   
+   emptyFCall();
+   oneArgFCall(a);
+   listArgFcall(a, b, this, that, more, lots);
+
+   //Expression Tests
+   if( 'a' == "This is a string." ){
+      while( i < 100){
+
+      }
+   }
+
+   a = 1+b;
+   subTest = 100-aLargeNumber;
+   multTest = 345*234523456;
+
+   //This is a complicated test
+   if(a+2345*y-5*(23*j) == (x-y)*45-k){
+      println "Lets hope this calulcates correctly";
+      return ( a+2345*y-5*(23*j)-(x-y)*45-k );
+   }
+
+}

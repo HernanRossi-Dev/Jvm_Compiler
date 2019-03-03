@@ -1,0 +1,12 @@
+void main ( ) {
+	
+}
+
+int functionOne(int x, char a) {
+	char c;
+	char[5] cTwo;
+	int iTwo;
+    int[4] iTwo;
+
+	return x;
+}

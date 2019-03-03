@@ -1,0 +1,15 @@
+void main ( ) {
+}
+
+int functionOne(int x) {
+	boolean[5] b;
+
+
+	
+    if(b) {
+		print "do stuff";
+		return x;
+	}
+
+	return 0;
+}

@@ -1,0 +1,62 @@
+void main() 
+{
+
+	boolean btrue;
+	boolean bfalse;
+	int x;
+	int[5] y;
+	float a;
+	float[5] b;
+
+	x = 10;
+	y[0] = x * 2;
+	y[1] = x;
+	y[2] = x * 2 + 5;
+	a = 2.3;
+	b[0] = a;
+	b[1] = 2.3*2.0;
+
+	bfalse = false;
+	btrue = true;
+	if( x < 20)
+	{
+		if( a == b[0])
+		{
+		 	while(y[0] < 25){
+		 		println y[0];
+		 		y[0] = y[0] +1;
+		 	}
+		}
+		if(true){
+			if(false){
+
+			}
+			else{
+				while(19 < y[0])
+				{
+					println y[0];
+					y[0] = y[0] -1;
+				}
+			}
+		}
+	}
+
+	x = foo(x);
+	println x;
+
+}
+
+int foo(int input)
+{
+	if(input == 10){
+		input = input + 5;
+	}
+
+	return input * input;
+}
+
+float bar(float input)
+{
+
+	return (input * input);
+}

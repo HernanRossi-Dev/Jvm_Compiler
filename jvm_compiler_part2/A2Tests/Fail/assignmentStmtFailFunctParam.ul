@@ -1,0 +1,11 @@
+void main ( ) {
+	
+}
+
+int functionOne(int x, char a, boolean d) {
+	char c;
+	int y;
+
+    a = x;
+	return x;
+}

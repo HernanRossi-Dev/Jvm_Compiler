@@ -1,0 +1,50 @@
+void main() 
+{
+	char[6] nameReversed;
+	char[6] name;
+	int i;
+	int k;
+	i=0;
+	k=6;
+	nameReversed[0] = 'n';
+	nameReversed[1] = 'a';
+	nameReversed[2] = 'n';
+	nameReversed[3] = 'r';
+	nameReversed[4] = 'e';
+	nameReversed[5] = 'h';
+
+	println "Input is my name reversed.";
+	while(i < k)
+	{
+		print nameReversed[i];
+		i = i +1;
+	}
+	println "";
+	name = reverseName(nameReversed);
+	i =0;
+	println "Output my name unreversed.";
+	while(i < k)
+	{
+		print name[i];
+		i = i +1;
+	}
+	println "";
+}
+
+char[6] reverseName(char[6] reversedName)
+{
+	char[6] result;
+	int i;
+	int k;
+	int j;
+
+	i = 0;
+	k =6;
+ 	j = 5;
+	while(i < k)
+	{
+		result[i] = reversedName[j - i];
+		i = i +1;
+	}
+	return result;
+}

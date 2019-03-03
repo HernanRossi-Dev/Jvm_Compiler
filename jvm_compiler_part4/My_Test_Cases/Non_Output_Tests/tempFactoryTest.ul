@@ -1,0 +1,13 @@
+void main(){
+	
+}
+
+int factorial(int a, char c, float f){
+	
+	boolean b;
+	string s;
+	int h;
+	char i;
+
+	return a;
+}

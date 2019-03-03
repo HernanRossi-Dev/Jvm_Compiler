@@ -1,0 +1,34 @@
+void main() 
+{
+
+	string s;
+	string s2;
+	char c;
+	char c2;
+
+	s = "a";
+	s2 = "zzzz";
+	c = 'a';
+	c2 = 'z';
+
+
+	if(s < s2)
+	{
+		println "s is less than s2";
+	}else
+	{
+		println "This should not be seen";
+	}
+
+	if(c < c2)
+	{
+		println "a is less than z";
+		println c;
+		println c2;
+
+	}else
+	{
+		println "This should not be seen";
+	}
+	
+}

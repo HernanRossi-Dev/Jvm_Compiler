@@ -1,0 +1,9 @@
+// This doesnt have a function
+
+int x;
+char y;
+
+x = 2;
+y = 'a';
+
+return x+y;

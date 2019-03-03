@@ -1,0 +1,10 @@
+void main ( ) {
+    int x;
+    int[3] y;
+	functionOne(x, y[2]);
+}
+
+int functionOne(int x, int y) {
+	return x +y;
+}
+

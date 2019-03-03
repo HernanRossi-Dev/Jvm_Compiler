@@ -1,0 +1,14 @@
+void main ( ) {
+}
+
+int functionOne(int x, char y) {
+	
+}
+
+int functionTwo(int x, string s, char[5] p) {
+	
+}
+
+int functionThree(boolean b, int[6] arr) {
+	
+}

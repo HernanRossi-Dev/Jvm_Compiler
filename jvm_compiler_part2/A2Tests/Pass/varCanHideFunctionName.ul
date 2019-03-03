@@ -1,0 +1,13 @@
+void main ( ) {
+	int x;
+	char y;
+
+	foo(x, y);
+}
+
+int foo(int x, char a) {
+	int foo;
+
+	foo = 5;
+	return x * foo;
+}

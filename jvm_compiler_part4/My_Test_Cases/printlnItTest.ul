@@ -1,0 +1,23 @@
+void main(){
+	printTest(10, 'a', 2.0);
+}
+
+int printTest(int a, char c, float f){
+	
+	boolean b;
+	string s;
+	int h;
+	char i;
+
+	s = "Hello World";
+	f = 4.5;
+	b = true;
+
+	println f;
+	println s;
+	println a;
+	println false;
+	println b;
+	println "This is a string";
+	return a;
+}

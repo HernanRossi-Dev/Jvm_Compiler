@@ -1,0 +1,27 @@
+void main(){
+	
+}
+
+int factorial(int a){
+	int h;
+	boolean[5] ba;
+	int[5] ia;
+
+	if(a < h){
+       if(ba[3]){
+        	if(false){
+
+        	}
+       } else{
+
+       }
+	}
+	else
+	{
+        print h + 5;
+	}
+	if((4+5) == ia[4] ){
+
+	}
+	return a;
+}

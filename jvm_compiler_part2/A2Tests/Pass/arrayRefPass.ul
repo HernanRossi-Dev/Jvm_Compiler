@@ -1,0 +1,14 @@
+void main ( ) {
+	
+}
+
+int[5] functionOne(int[4] x) {
+	int[5] y;
+	int[10] z;
+
+	z[1] = 10;
+	y[3] = x[3];
+	y[0] = z[1];
+	y[4] = 200;
+    return y;
+}

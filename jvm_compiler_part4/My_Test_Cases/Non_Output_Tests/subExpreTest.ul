@@ -1,0 +1,14 @@
+void main(){
+	
+}
+
+boolean factorial(int x){
+	
+	boolean b;
+	int y;
+
+
+	y = 100 - x - y - 200 - 5 ;
+
+	return b;
+}

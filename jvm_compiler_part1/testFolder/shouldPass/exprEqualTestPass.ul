@@ -1,0 +1,12 @@
+void exprEqualTest()
+{
+    int[3] result;
+	
+    result[0] = 2;
+    result[1] = 400000;
+    result[2] = 0;
+
+    result[0] = result[1] + result[2];
+	return (result[0] - result[2] * result[1]);
+}
+

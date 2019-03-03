@@ -1,0 +1,36 @@
+void main() 
+{
+	float[2] input;
+	float[2] output;
+	int i;
+	int k;
+	i=0;
+	k=2;
+	input[0] = 2.5;
+	input[1] = 1.5;
+
+	while(i < k)
+	{
+		print input[i];
+		i = i +1;
+	}
+	println "";
+	output = addOne(input);
+	i =0;
+
+	while(i < k)
+	{
+		print output[i];
+		i = i +1;
+	}
+	println "";
+}
+
+float[2] addOne(float[2] in)
+{
+	float[2] out;
+	
+	out[0] = 5.5;
+	out[1] = 10.5;
+	return out;
+}

@@ -1,0 +1,7 @@
+int arrayTestFailThree()
+{
+    char[5] charArray;
+    // improper array indexing
+    []charArray = 'a'; 
+    return;
+}

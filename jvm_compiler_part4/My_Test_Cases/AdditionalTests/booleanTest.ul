@@ -1,0 +1,33 @@
+void main() 
+{
+
+	boolean btrue;
+	boolean bfalse;
+
+	bfalse = false;
+	btrue = true;
+	while(btrue){
+		println "This should loop forever";
+	}
+	while(btrue){
+		println "This should loop forever";
+	}
+	while(bfalse){
+		println "This should never be seen but I think it might";
+	}
+	while(bfalse){
+		println "This should never be seen but I think it might";
+	}
+}
+
+boolean footrue(boolean bfalse, boolean btrue)
+{
+
+	return btrue;
+}
+
+boolean foofalse(boolean btrue, boolean bfalse)
+{
+
+	return bfalse;
+}

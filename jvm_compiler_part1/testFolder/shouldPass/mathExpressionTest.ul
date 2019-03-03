@@ -1,0 +1,42 @@
+int sampleOne (int x, float y, int b, int c)
+{
+	int x;
+	int y;
+	int j;
+	int k;
+
+	x=2+j+2+2+2-1-1-1-1-k;
+	y=3*j*3+1+2+3-4-5-6-7*3*3-3+3*k;
+
+	if (x<y)
+	{
+		x=2+j+2+2+2-1-1-1-1-k;
+		y=3*j*3+1+2+3-4-5-6-7*3*3-3+3*k;
+	}
+	else
+	{
+		x=2+j+2+2+2-1-1-1-1-k;
+		y=3*j*3+1+2+3-4-5-6-7*3*3-3+3*k;
+	}
+	return x*3*3+1+2+3-4-5-6-7*3*3-3+3*k;
+}
+
+void sampleTwo (boolean y, int x, float y, char t, string s)
+{
+	
+}
+
+void main ()
+{	
+	int x;
+	float y;
+	int b;
+	int c;
+
+	x=2;
+	y=2.3;
+	b=9;
+	c=345;
+	
+	sampleOne(x, y, b, c);
+}

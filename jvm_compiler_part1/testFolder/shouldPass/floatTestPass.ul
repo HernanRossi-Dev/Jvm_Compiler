@@ -1,0 +1,20 @@
+float floatPass (float x, float y)
+{
+    float[3] floatArray;
+    float testTwo;
+    float testThree;
+    
+    floatArray[0] = 1234.3332323;
+    floatArray[0] = 0.949494;
+    floatArray[0] = 0.0;
+    testThree = 0.0002;
+
+	if (x==test)
+    {
+        return x+testThree-5;
+    } else
+    {
+        return 3+3*testTwo;
+    }
+    return (y<test);
+}

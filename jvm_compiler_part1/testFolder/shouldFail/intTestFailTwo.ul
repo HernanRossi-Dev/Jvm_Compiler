@@ -1,0 +1,13 @@
+int intTestFailTwo (int x, int y)
+{
+    int test_1;
+    
+    test_1 = 001ff23;
+    test_1 = 001&*23;
+    if(00){
+
+    } else {
+
+    }
+    return 0000;
+}

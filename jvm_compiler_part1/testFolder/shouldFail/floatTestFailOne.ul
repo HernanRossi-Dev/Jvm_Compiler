@@ -1,0 +1,6 @@
+float floatTestFailOne (float x, float y)
+{
+    float testTwo;
+
+    testTwo = 23.;
+}

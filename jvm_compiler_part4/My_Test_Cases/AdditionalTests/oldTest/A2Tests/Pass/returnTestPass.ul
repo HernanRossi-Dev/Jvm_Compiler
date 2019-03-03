@@ -1,0 +1,21 @@
+void main ( ) {
+	
+}
+
+int functionOne(int x, char a) {
+	char c;
+	char[5] cTwo;
+	int iOne;
+	int[4] iTwo;
+	string sOne;
+	string[4] sTwo;
+	float fOne;
+	float[2] fTwo;
+	boolean bOne;
+	boolean[10] bTwo;
+
+
+	return x;
+	return iOne;
+	return 4325;
+}

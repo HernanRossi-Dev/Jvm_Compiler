@@ -1,0 +1,36 @@
+void main() 
+{
+	char[2] input;
+	char[2] output;
+	int i;
+	int k;
+	i=0;
+	k=2;
+	input[0] = 'a';
+	input[1] = 'a';
+
+	while(i < k)
+	{
+		print input[i];
+		i = i +1;
+	}
+	println "";
+	output = addOne(input);
+	i =0;
+
+	while(i < k)
+	{
+		print output[i];
+		i = i +1;
+	}
+	println "";
+}
+
+char[2] addOne(char[2] in)
+{
+	char[2] out;
+	
+	out[0] = 'b';
+	out[1] = 'z';
+	return out;
+}

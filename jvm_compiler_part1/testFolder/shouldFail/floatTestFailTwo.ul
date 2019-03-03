@@ -1,0 +1,14 @@
+float floatTestFailOne (float x, float y)
+{
+    float testTwo;
+
+    testTwo = 2.323.234,234.234;
+    testTwo = 2.323.234,234.234 + 23.23,23.23;
+    if(3.2.3.4){
+
+    }
+    while(.2){
+
+    }
+    return .;
+}

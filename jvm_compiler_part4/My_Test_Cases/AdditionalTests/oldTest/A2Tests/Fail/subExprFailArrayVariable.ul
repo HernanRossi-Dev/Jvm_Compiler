@@ -1,0 +1,12 @@
+void main ( ) {
+	
+}
+
+int functionOne() {
+	char[5] c;
+	char[5] d;
+	char[10] e;
+
+    e = d - c;
+	return 0;
+}

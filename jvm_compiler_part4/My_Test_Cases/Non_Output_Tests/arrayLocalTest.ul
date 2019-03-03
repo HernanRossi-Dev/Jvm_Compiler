@@ -1,0 +1,23 @@
+void main(){
+	float[10] f;
+}
+
+int factorial(int x){
+	char[5] c;
+	int[10] h;
+	float[10] j;
+	boolean[12] k;
+	string[12] st;
+
+	k[4] = false;
+
+	j[3] = 2.3;
+
+	h[20] = 3;
+
+	c[23] = 'n';
+
+	st[2] = "this is a string";
+
+	return 5;
+}

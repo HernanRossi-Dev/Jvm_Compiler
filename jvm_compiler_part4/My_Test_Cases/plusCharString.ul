@@ -1,0 +1,18 @@
+void main() 
+{
+	char c;
+	string str;
+
+	println 20 + 2 - 1;
+	println 2.2 + 3.0 - 3.0;
+	c = ' ';
+	println "the following addition of char character space should equal the char andChar";
+	println c + c;
+	println "the following subtraction of char character z and space should equal the char Z";
+	println 'z' - c;
+	str = "Hernan ";
+
+	println str + "Rossi"; 
+
+}
+

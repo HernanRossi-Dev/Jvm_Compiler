@@ -1,0 +1,19 @@
+void main ( ) {
+	
+}
+
+int functionOne(int x, char a) {
+	char c;
+	boolean bOne;
+
+	bOne = true;
+
+    while(true) {
+		print "This will print";
+	}
+	return 0;
+}
+
+boolean returnBool(){
+	return false;
+}

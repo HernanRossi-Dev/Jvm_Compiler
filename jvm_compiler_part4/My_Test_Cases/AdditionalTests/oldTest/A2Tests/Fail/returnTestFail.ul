@@ -1,0 +1,10 @@
+void main ( ) {
+	
+}
+
+int functionOne(int x, char a) {
+
+    return x;
+    return a;
+    return 4325;
+}

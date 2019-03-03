@@ -1,0 +1,10 @@
+void main ( ) {
+	char[5] charArray;
+    functionOne(charArray);
+}
+
+int[3] functionOne(char[10] cArray) {
+	int[3] x;
+
+	return x;
+}

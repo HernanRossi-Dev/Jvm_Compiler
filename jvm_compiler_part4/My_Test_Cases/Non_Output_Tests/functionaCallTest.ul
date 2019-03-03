@@ -1,0 +1,43 @@
+void main(){
+	int a;
+	int[5] aa;
+	char[5] c;
+	string s;
+	boolean b;
+
+	a = factorial(6.7,5,  aa );
+    c[3] = charFunct('a', aa[5], true);
+    s = stringFunction("this is input", s);
+    b = boolFunction(b, true);
+    boolFunction(false, false);
+    voidFunctCall();
+    intArrayFunct(aa, 5);
+}
+
+int factorial(float f, int x, int[5] aa){
+	return x;
+}
+
+int[5] intArrayFunct(int[5] a, int b)
+{
+	return a;
+}
+char charFunct(char a, int b, boolean c)
+{
+	return a;
+}
+
+string stringFunction(string a, string b)
+{
+	return "this is a string";
+}
+
+boolean boolFunction(boolean a, boolean b)
+{
+	return b;
+}
+
+void voidFunctCall()
+{
+	
+}

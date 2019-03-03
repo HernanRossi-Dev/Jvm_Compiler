@@ -1,0 +1,30 @@
+string printTestPass (string in1, string in2)
+{
+    string testOne;
+	string testTwo;
+    string testThree;
+    string testFour;
+    string[4] stringArray;
+    int i;
+
+    testOne = "This is a test string.";
+    testTwo = "Is this also a string?";
+    testThree = "The two previous strings ___ are, valid strings!!!";
+    testFour = "this , has . a lot? of ! random _ symbols";
+    stringArray[0] = "One";
+    stringArray[1] = "3";
+    stringArray[2] = "another! string? with, punctuation.";
+    stringArray[3] = " ";
+
+    while ("Test string one"==testOne)
+    {
+        print test_Array;
+    }
+
+    i = 0;
+    while (i<5)
+    {
+        print test_Array[i];
+        i =i+1;
+    }
+}

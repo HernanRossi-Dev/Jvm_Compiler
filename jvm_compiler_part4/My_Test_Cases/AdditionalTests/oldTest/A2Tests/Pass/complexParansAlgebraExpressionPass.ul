@@ -1,0 +1,11 @@
+void main ( ) {
+}
+
+int functionOne(int x) {
+	
+	int y;
+	int z;
+	int w;
+
+	return ((y + 23) * z - (w + x) * 13);
+}

@@ -1,0 +1,20 @@
+void main ( ) {
+	int x;
+	int y;
+
+	y = x + y + 23 + x;
+}
+
+int functionOne(int x, char a) {
+	int y;
+
+	y = 0;
+	while( (y + y) < (x + x)) {
+
+		print "y is ";
+		println y;
+		y = y + 1;
+	}
+	println "exiting while loop y equals x";
+	return y+34;
+}

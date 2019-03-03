@@ -1,0 +1,9 @@
+void main ( ) {
+	
+}
+
+void functionOne(int x, char a) {
+	int y;
+
+	return y;
+}

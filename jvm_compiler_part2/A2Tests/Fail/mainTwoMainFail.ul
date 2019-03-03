@@ -1,0 +1,14 @@
+void main ( ) {
+	
+}
+
+void main() {
+    int[5] y;
+    float b;
+
+    b = 3.4;
+    y[b] = x;
+    y[0] = 0;
+    y[4] = 200;
+    return y[4];
+}

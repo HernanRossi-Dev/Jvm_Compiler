@@ -1,0 +1,17 @@
+int intReturn(int y, int x, char b, string testStringOne)
+{
+    int[3] result;
+	
+    result[0] = 2;
+    result[1] = 400000;
+    result[2] = 0;
+
+    noParams();
+	return intReturn(1,2,3,4);	
+}
+
+void noParams()
+{
+	intReturn(1,2,'a',"Test string!.,?");
+}
+

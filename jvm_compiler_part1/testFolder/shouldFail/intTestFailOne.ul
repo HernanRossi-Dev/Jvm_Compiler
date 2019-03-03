@@ -1,0 +1,6 @@
+int intTestFailOne (int x, int y)
+{
+    int test_1;
+    
+    test_1 = 00123;
+}

@@ -1,0 +1,16 @@
+void main(){
+	float[10] f;
+
+	f[5] = 2.4;
+}
+
+int factorial(int x){
+	char[5] c;
+	int[10] h;
+	int y;
+
+	h[5] = 20;
+	h[4] = x;
+	h[0] = 5 + x * 34 - y;
+	return 5;
+}

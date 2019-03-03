@@ -1,0 +1,7 @@
+void 
+{
+	string[10] a;
+	int w;
+	println sampleOne(10,9.3);
+	sampleTwo();
+}

@@ -1,0 +1,55 @@
+int[4] arrayTestPass(boolean n, int k)
+{
+    boolean[3] boolArray;
+    int[3] intArray;
+    string[4] stringArray;
+    float[3] floatArray;
+    char[4] char_Array;
+    int[5] newIntArrat;
+    int[2] arrayOfArrays;
+    int[10000] intLargeArray;
+    char[9000009] charLargerArray;
+    int i;
+
+    i=0;
+    boolArray[0] = true;
+    boolArray[1] = false;
+
+    intArray[0] = 1;
+    intArray[1] = 0;
+    intArray[2] = 2345234;
+
+    stringArray[0] = "One";
+    stringArray[1] = "3";
+    stringArray[2] = "another! string? with, punctuation.";
+    stringArray[3] = " ";
+
+    floatArray[0] = 1234.3332323;
+    floatArray[0] = 89.949494;
+    floatArray[0] = 0.0;
+
+    char_Array[0] = 'a';
+    char_Array[0] = 'A';
+    char_Array[0] = 'y';
+    char_Array[0] = 'Z';
+
+    arrayOfArrays[0] = intArray;
+    arrayOfArrays[1] = intArray;
+
+	char_Array[2] = 'f';
+
+    while (i<intArray[5])
+	{
+	    println intArray[i];
+		newIntArray[i] = intArray[i];
+		i =i+1;
+	}
+	if (false)
+    {
+		// this should fail in syntax check
+		return boolArray[1];
+	} else 
+    {
+		return arrayOfArrays;
+	}
+}

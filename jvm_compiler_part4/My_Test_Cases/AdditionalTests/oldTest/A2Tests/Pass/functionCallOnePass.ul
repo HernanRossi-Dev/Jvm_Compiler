@@ -1,0 +1,50 @@
+void main ( ) {
+	functionOne(5, 3);
+}
+
+int functionOne(int x, int y) {
+	
+	int pow;
+	boolean lessThanResult;
+
+	print "x is ";
+	println x;
+	print "y is ";
+	println y;
+	print "x to the power y";
+
+	pow = mathPow(x, y);
+	println pow;
+
+	lessThanResult = lessThan(x, y);
+	print "Is x less than y?";
+	println lessThanResult;
+
+	return pow;
+}
+
+boolean lessThan(int x, int y) 
+{
+	if( x < y)
+	{
+		return true;
+	} 
+	else
+	{
+		return false;
+	}
+	return false;
+}
+
+int mathPow(int x, int y)
+{
+	int i;
+
+	i = 0;
+	while(i < y) {
+		x = x*x;
+		i = i+1;
+	}
+
+	return x;
+}

@@ -1,0 +1,10 @@
+void main ( ) {
+
+}
+
+string functionOne(int[4] a) {
+	string x;
+
+    println a;
+	return x;
+}

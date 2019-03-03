@@ -1,0 +1,14 @@
+void main(){
+	
+}
+
+boolean factorial(int x){
+	
+	boolean b;
+	int y;
+
+
+	y = x + 5 + 4 + x;
+
+	return b;
+}

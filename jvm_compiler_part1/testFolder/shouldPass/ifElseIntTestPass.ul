@@ -1,0 +1,44 @@
+int ifElsePass (int x, int y)
+{
+    int test_1;
+    int testTwo;
+    int[3] intArray;
+    int testFour;
+    
+    test_1 = 234525250;
+    testTwo = 23;
+    intArray[0] = 1;
+    intArray[1] = 0;
+    intArray[2] = 23452346;
+    testFour = test_Array1[2];
+
+    if (x==y)
+    {
+        if (test_1<testTwo)
+        {
+            return x+y-5;
+        }
+        if (100<200)
+        {
+            x = test_Array1[3];
+        }
+        if (y==testTwo)
+        {
+            println y;
+            if (x==test_1)
+            {
+                print x + 3 * 2 * ( 2 - 1);
+            } else
+            {
+                return test_1;
+            }
+        } else
+        {
+            print testTwo;
+        }
+    } else
+    {
+        return 3+3*5;
+    }
+    return x;
+}

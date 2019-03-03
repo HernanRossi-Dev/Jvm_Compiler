@@ -1,0 +1,16 @@
+void main ( ) {
+	string x;
+
+	x = "This is the input string.";
+	functionOne(x);
+}
+
+string functionOne(string x) {
+    string y;
+    string z;
+
+    y = "this is a new string.";
+    z = x - y;
+
+	return x[3];
+}

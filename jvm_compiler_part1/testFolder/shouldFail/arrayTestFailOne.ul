@@ -1,0 +1,5 @@
+void arrayTestFailOne()
+{
+    char[five] charLargerArray;
+    return;
+}

@@ -1,0 +1,62 @@
+int intReturn(int y, int x)
+{
+    int result;
+    result = x*y;
+
+	if (x<y)
+	{
+	    return result*result;
+	}
+	
+    if (y<100)
+    {
+        return 2+(45363-243)*2;
+    }
+}
+
+string stringReturn(string one, string two)
+{
+    string[3] stringArray;
+
+    stringArray[0] = one;
+    stringArray[1] = two;
+    stringArray[2] = "The last string!";
+
+    return stringArray; 
+}
+
+boolean boolReturn()
+{
+    boolean[2] results;
+
+    results[0] = true;
+    results[1] = false;
+
+    if (results[0])
+    {
+        return results[1];
+	} else 
+	{
+	    return results[0];
+	}
+
+    return false;
+}
+
+float returnFloat()
+{
+    return 3.41536819;
+}
+
+char returnChar(char a, char b)
+{
+    if (a=='a')
+    {
+        return 'a' + 'A';
+    } else
+    {
+        return 'b'-'B'*'Z';
+    }
+
+    return 'z';
+}

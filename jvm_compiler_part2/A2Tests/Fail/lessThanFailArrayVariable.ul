@@ -1,0 +1,13 @@
+void main ( ) {
+	
+}
+
+int functionOne() {
+	char c;
+	char[5] d;
+
+    while(c < d) {
+		print "This will print";
+	}
+	return 0;
+}

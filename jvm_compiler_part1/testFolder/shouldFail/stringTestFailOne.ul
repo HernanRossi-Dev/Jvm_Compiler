@@ -1,0 +1,6 @@
+string stringTestFailOne ()
+{
+    string test_1;
+    
+    test_1 = """;
+}

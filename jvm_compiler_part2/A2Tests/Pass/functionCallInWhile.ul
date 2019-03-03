@@ -1,0 +1,23 @@
+void main ( ) {
+	
+}
+
+void functionOne(int x, char a) {
+	char c;
+	boolean bOne;
+	bOne = true;
+
+    while(swapBool(bOne)) {
+		print "This will print";
+	}
+}
+
+boolean swapBool(boolean b){
+	if(b){
+		return false;
+	}
+	else{
+		return true;
+	}
+	return false;
+}

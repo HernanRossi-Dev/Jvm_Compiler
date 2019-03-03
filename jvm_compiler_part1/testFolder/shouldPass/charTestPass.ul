@@ -1,0 +1,32 @@
+char charTestPass (char x, char y)
+{
+    char testTwo;
+    char test;
+    char testTwo;
+    char[5] char_Array;
+    char[5] newCharArray;
+    int i;
+
+    test = 'a';
+    testTwo = 'b';
+    char_Array[0] = 'a';
+    char_Array[0] = 'A';
+    char_Array[0] = 'y';
+    char_Array[0] = 'Z';
+    char_Array[0] = ' ';
+
+    if ( x < y)
+    {
+        return test;
+	}
+
+	i = 0;
+    // This should reverse the testArray
+    while (i<5)
+    {
+        newCharArray[i] = testArray[5-i];
+        i = i+1;
+    }
+    testTwo = newCharrArray[0];
+    return ' ';
+}

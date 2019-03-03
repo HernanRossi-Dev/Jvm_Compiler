@@ -1,0 +1,11 @@
+void main ( ) {
+	string x;
+
+	x = "This is the input string.";
+	functionOne(x);
+}
+
+string functionOne(string x) {
+
+	return x[3];
+}

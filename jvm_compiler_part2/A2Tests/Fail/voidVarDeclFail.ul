@@ -1,0 +1,9 @@
+void main ( ) {
+	
+}
+
+int functionOne(int x, char a) {
+    void[10] bTwo;
+
+	return x;
+}

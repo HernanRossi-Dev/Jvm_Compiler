@@ -1,0 +1,9 @@
+void main ( ) {
+	int[4] x;
+
+	functionOne(x);
+}
+
+int functionOne(int[5] x) {
+	return x[3];
+}

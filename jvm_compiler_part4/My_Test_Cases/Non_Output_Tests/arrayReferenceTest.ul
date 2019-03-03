@@ -1,0 +1,13 @@
+void main(){
+}
+
+int factorial(int x){
+	int[10] h;
+	int y;
+
+	h[5] = 20;
+	h[6] = 5;
+	y = h[5] + x;
+	
+	return h[6];
+}

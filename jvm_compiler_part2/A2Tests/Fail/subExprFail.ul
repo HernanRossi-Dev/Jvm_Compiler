@@ -1,0 +1,19 @@
+void main ( ) {
+	
+}
+
+int functionOne(int x, char a) {
+	int y;
+	float z;
+	
+	y = 10;
+	z = 1.0;
+	while( 0 < y) {
+
+		print "y is ";
+		println y;
+        y = y - z;
+	}
+	println "exiting while loop y is 0";
+	return y;
+}

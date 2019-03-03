@@ -1,0 +1,19 @@
+void main ( ) {
+}
+
+int functionOne(int x) {
+	
+    if( x < 10) {
+		print "do stuff";
+		return x;
+	}
+
+	if( 30 == x) {
+		return x - 3;
+	} 
+	else 
+	{
+		return x * (3 + 4);
+	}
+	return 0;
+}

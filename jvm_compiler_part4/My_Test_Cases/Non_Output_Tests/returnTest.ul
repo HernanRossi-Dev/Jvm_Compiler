@@ -1,0 +1,51 @@
+void main(){
+
+	print factorial(2.5);
+}
+
+float factorial(float x){
+	float y;	
+	float[10] j;
+
+	return y;
+	return j[3];
+
+}
+
+int returnint(){
+	int i;
+	int[10] h;
+
+	return i;
+	return h[3];
+}
+
+boolean returnBool(){
+	boolean b;
+	boolean[12] k;
+
+	return b;
+	return k[3];
+}
+
+char returnchar(){
+	char[5] ca;
+	char c;
+
+	return ca[3];
+	return c;
+}
+
+string returnstring(){
+	string s;
+	string[12] st;
+	
+
+	return s;
+	return st[3];
+}
+
+int[5] returnArray(){
+	int[5] x;
+	return x;
+}

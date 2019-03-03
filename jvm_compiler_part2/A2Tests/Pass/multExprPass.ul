@@ -1,0 +1,17 @@
+void main ( ) {
+	
+}
+
+int functionOne(int x, char a) {
+	int y;
+	
+	y = 1;
+	while( y < 10000) {
+
+		print "y is ";
+		println y;
+		y = y * 10;
+	}
+	println "exiting while loop y equals 10000";
+	return y;
+}
