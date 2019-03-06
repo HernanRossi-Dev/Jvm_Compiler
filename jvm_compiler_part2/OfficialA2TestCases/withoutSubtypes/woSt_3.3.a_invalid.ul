@@ -1,7 +1,0 @@
-void main() {
-    foo(3);
-}
-
-void foo(int a, float b) {
-
-}

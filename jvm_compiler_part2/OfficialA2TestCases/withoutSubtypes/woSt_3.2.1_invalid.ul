@@ -1,4 +1,0 @@
-void main() {
-    int[3] a;
-    print a[true];
-}
