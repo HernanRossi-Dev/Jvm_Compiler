@@ -1,8 +1,6 @@
 README: 
 Student: Hernan Rossi
-ID: V00767958
 
-Class CSC435 Assignemnt 4 Due April 6th
 
 ******************************************************
 IMPORTANT: CLASSPATH must be properly set for antlr to be detected when $ make is run
