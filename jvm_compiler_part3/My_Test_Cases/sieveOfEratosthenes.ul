@@ -1,0 +1,89 @@
+void main() 
+{
+	int i;
+	int k;
+	int j;
+	int n;
+	int tempVal;
+	int[200000] prime;
+	boolean tempCond;
+
+	k =2;
+	n = 1000;
+    i = 0;
+    while (i < n) 
+    {
+        prime[i] = i;
+        i = i + 1;
+    }
+
+    println "The following is a list of all the primes between 1 and 1000";
+
+    i = 2;
+    while( i < n) 
+    {	
+    	tempCond = (prime[i] == 0);
+    	// invert the result
+    	if(tempCond) {
+    		tempCond = false;
+    	}
+    	else
+    	{
+    		tempCond = true;
+    	}
+
+    	if(tempCond)
+    	{
+    		j =2;
+    		while(j < n)
+    		{
+    			tempVal = j * prime[i];
+    			prime[tempVal] =0;
+    			tempVal = prime[i] * j;
+    			if(tempVal < n){
+    				
+    			}
+    			else
+    			{
+    				j = n;
+    			}
+    			j = j+1;
+    		}
+    	}
+
+    	i = i +1;
+    }
+    k = 0;
+    i = 0;
+    while( i < n)
+    {
+    	if(prime[i] == 0)
+    	{
+
+    	}
+    	else
+    	{
+            if(k < 10){
+              if (k == 0){
+                print prime[i];
+              }
+              else{
+                print ", ";
+                print prime[i];
+              }
+              k = k + 1;
+            } 
+            else 
+            {
+                print ", ";
+                println prime[i];
+                k = 0;
+            }
+    		
+    	}
+    	i = i+1;
+    }
+     println "";
+}
+
+

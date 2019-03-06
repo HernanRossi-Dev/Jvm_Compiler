@@ -1,0 +1,65 @@
+void main() 
+{
+    int result;
+    
+    result = foo(10, baz('b'), biz(true), fiz("intput string"), bar(3.4));
+    print "Result of foo is ";
+    println result;
+}
+
+int foo(int n, char letter, boolean bool, string str, float flt) 
+{
+    int localint;
+    char localChar;
+    boolean localBoolean;
+    string localString;
+    float localFloat;
+    if(n < 20)
+    {
+    	if(letter == 'c')
+        {
+            if(bool == false)
+            {
+                if(str == fiz("input string"))
+                {
+                    if(flt == bar(34.56))
+                    {
+                        println "Reached the lowest nested if";
+                        return 100;
+                    }
+                }
+            }
+        }
+    }
+    return 1;
+}
+
+float bar(float in)
+{
+    float f;
+    f = 10.503;
+    return f;
+}
+
+char baz(char in)
+{
+    char c;
+    c = 'c';
+    return c;
+}
+
+boolean biz(boolean in)
+{
+    boolean f;
+
+    f = false;
+    return f;
+}
+
+string fiz(string in)
+{
+    string out;
+
+    out = "Input to foo";
+    return out;
+}

@@ -1,0 +1,121 @@
+void main() 
+{
+    int[15] arr ;
+    int n;
+
+    n = 15;
+    arr[0] = 25;
+    arr[1] = 3;
+    arr[2] = 11;
+    arr[3] = 6;
+    arr[4] = 89;
+    arr[5] = 36;
+    arr[6] = 23;
+    arr[7] = 2;
+    arr[8] = 9;
+    arr[9] = 55;
+    arr[10] = 12;
+    arr[11] = 33;
+    arr[12] = 78;
+    arr[13] = 100;
+    arr[14] = 4;
+
+    println "Heapsort implemented in the unamed language by Hernan Rossi ";
+    println "The input array is.";
+    printArray(arr, n);
+    quicksort(arr, 0, 14);
+    println "The output Array is.";
+    printArray(arr, n);
+}
+
+void quicksort(int[15] arr, int low, int high)
+{
+    int pi;
+
+    if(low < high)
+    {
+        pi = partition(arr, low, high);
+
+        quicksort(arr, low, pi-1);
+        quicksort(arr, pi +1, high);
+    }
+}
+
+int partition(int[15] arr, int low, int high)
+{
+    int pivot;
+    int i;
+    int j;
+    int leftTemp;
+    int rightTemp;
+
+    pivot = arr[high];
+
+    i = (low -1);
+
+    j =low;
+    while(j < high -1)
+    {
+        if(arr[j] < pivot)
+        {
+            i = i +1;
+            leftTemp = arr[i];
+            rightTemp = arr[j];
+            arr[i] = rightTemp;
+            arr[j] = leftTemp;
+            
+        }
+        if(arr[j] == pivot)
+        {
+            i = i +1;
+            leftTemp = arr[i];
+            rightTemp = arr[j];
+            arr[i] = rightTemp;
+            arr[j] = leftTemp;
+
+        }
+        
+        j = j +1;
+    }
+    if(arr[j] < pivot)
+    {
+        i = i +1;
+        leftTemp = arr[i];
+        rightTemp = arr[j];
+        arr[i] = rightTemp;
+        arr[j] = leftTemp;
+        
+    }
+    if(arr[j] == pivot)
+    {
+        i = i +1;
+        leftTemp = arr[i];
+        rightTemp = arr[j];
+        arr[i] = rightTemp;
+        arr[j] = leftTemp;
+    }
+
+    leftTemp = arr[i +1];
+    rightTemp = arr[high];
+    arr[i +1] = rightTemp;
+    arr[high] = leftTemp;
+
+    return (i+1);
+}
+
+void printArray(int[15] arr2, int n)
+{
+    int i;
+
+   
+
+
+    i =0;
+    while( i < n )
+    {
+        print arr2[i];
+        print ", ";
+        i = i + 1;
+    }
+    println "";
+}

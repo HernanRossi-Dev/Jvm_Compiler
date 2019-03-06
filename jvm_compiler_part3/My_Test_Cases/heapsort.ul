@@ -1,0 +1,137 @@
+void main() 
+{
+    int[10] arr ;
+    int n;
+
+    n = 10;
+    arr[0] = 5;
+    arr[1] = 3;
+    arr[2] = 4;
+    arr[3] = 6;
+    arr[4] = 7;
+    arr[5] = 1;
+    arr[6] = 8;
+    arr[7] = 2;
+    arr[8] = 9;
+    arr[9] = 0;
+    println "Heapsort implemented in the unamed language by Hernan Rossi ";
+    println "The input array is.";
+    printArray(arr, 10);
+    heapSort(arr, n);
+    println "The output Array is.";
+    printArray(arr, 10);
+}
+
+void printArray(int[10] arr2, int n)
+{
+    int i;
+
+   
+
+
+    i =0;
+    while( i < n )
+    {
+        print arr2[i];
+        print ", ";
+        i = i + 1;
+    }
+    println "";
+}
+
+// divide x by y no remainder
+int divideByTwo(int x)
+{
+    int count;
+    int remainder;
+    while( 1 < x)
+    {
+        x = x - 2;
+        count = count + 1;
+    }
+    return count;
+}
+
+
+void heapify(int[10] arr3, int n, int i)
+{
+    int largest;
+    int l;
+    int r;
+    int leftTemp;
+    int rightTemp;
+
+    largest = i;
+    l = 2 * i + 1;
+    r = 2 * i + 2;
+
+    //left child is larger than root
+    if ( l < n ){
+        if ( arr3[largest] < arr3[l]  )
+        {
+            largest = l;
+        }
+    }
+     //right child is larger than root
+    if ( r < n ){
+        if ( arr3[largest] < arr3[r]  )
+        {
+            largest = r;
+        }
+    }
+
+    if (largest == i)
+    {
+
+    } else
+    {
+        leftTemp = arr3[i];
+        rightTemp = arr3[largest];
+        arr3[i] = rightTemp;
+        arr3[largest] = leftTemp;
+        heapify(arr3, n , largest);
+    }
+
+}
+
+void heapSort(int[10] arr4, int n)
+{
+
+    int i;
+    int nDividedByTwo;
+    int leftTemp;
+    int rightTemp;
+    
+    nDividedByTwo = divideByTwo(n);
+    i = nDividedByTwo - 1;
+    while( 0 < i  )
+    {
+        
+        heapify(arr4, n, i);
+        i = i - 1;
+    }
+    if(i ==0){
+        
+        heapify(arr4, n, i);
+    }
+
+    i = n - 1;
+
+    while( 0 < i )
+    {
+        leftTemp = arr4[0];
+        rightTemp = arr4[i];
+        arr4[0] = rightTemp;
+        arr4[i] = leftTemp;
+        heapify(arr4, i, 0);
+        i = i - 1;
+    }
+     if(i == 0){
+        leftTemp = arr4[0];
+        rightTemp = arr4[i];
+        arr4[0] = rightTemp;
+        arr4[i] = leftTemp;
+        heapify(arr4, i, 0);
+    }
+    
+}
